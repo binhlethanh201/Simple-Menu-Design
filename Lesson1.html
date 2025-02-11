@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hiện phép toán</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 style="color:blue;margin-left: 65px;">THỰC HIỆN PHÉP TOÁN</h2>
+
+        <div>
+            <p style="margin-left: 20px;">Nhập a: <input class="input" type="text" name="a" value="">
+            <p style="margin-left: 20px;">Nhập b: <input class="input" type="text" name="b" value="">
+        </div>
+        <div class="button">
+            <input type="submit" value="a + b">
+            <input type="submit" value="a - b">
+            <input type="submit" value="a * b">
+            <input type="submit" value="a / b">
+        </div>
+
+        <h2 class="result" style="color:blue;margin-left: 45px;">KẾT QUẢ <input class="text" name="result"></h2>
+    </div>
+
+</body>
+
+<style>
+    .container {
+        width: 400px;
+        height: 240px;
+        border: 1px solid blue;
+    }
+
+    .input {
+        background-color: #ccffff;
+        width: 130px;
+
+    }
+
+    .text {
+        background-color: rgb(244, 174, 230);
+        width: 70px;
+    }
+
+    .button {
+        margin-left: 60px;
+    }
+
+    .result {
+        color: #ffccff;
+
+    }
+</style>
+<div class="container">
+    <h2 class="text-primary text-center">THỰC HIỆN PHÉP TOÁN</h2>
+
+    <form>
+        <div class="form-group">
+            <label for="a">Nhập a:</label>
+            <input type="text" class="form-control" id="a" name="a">
+        </div>
+        <div class="form-group">
+            <label for="b">Nhập b:</label>
+            <input type="text" class="form-control" id="b" name="b">
+        </div>
+        <div class="btn-group">
+            <button type="submit" class="btn btn-primary">a + b</button>
+            <button type="submit" class="btn btn-primary">a - b</button>
+            <button type="submit" class="btn btn-primary">a * b</button>
+            <button type="submit" class="btn btn-primary">a / b</button>
+        </div>
+        <div class="form-group">
+            <label for="result">KẾT QUẢ:</label>
+            <input type="text" class="form-control" id="result" name="result" readonly>
+        </div>
+    </form>
+</div>
+
+</html>

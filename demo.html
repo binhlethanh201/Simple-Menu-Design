@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hiện phép toán</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            background-color: #f0f8ff; 
+        }
+        .container {
+            width: 300px;
+            border: 2px solid blue;
+            padding: 20px;
+            text-align: center;
+            background-color: white; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        .result {
+            margin-top: 10px;
+            color: blue;
+        }
+        input[type="text"] {
+            background-color: lightblue;
+            width: 100px;
+        }
+        button {
+            margin: 5px;
+        }
+        .nhap1 {
+            display: table;
+            unicode-bidi: isolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: blue;">THỰC HIỆN PHÉP TOÁN</h2>
+        <div class="nhap1">
+            Nhập a: <input type="text" id="a"><br><br>
+            Nhập b: <input type="text" id="b"><br><br>
+        </div>
+        <div>
+            <button onclick="calculate('+')">a + b</button>
+            <button onclick="calculate('-')">a - b</button>
+            <button onclick="calculate('*')">a * b</button>
+            <button onclick="calculate('/')">a / b</button>
+        </div>
+        <h3 class="result">KẾT QUẢ <input type="text" id="result" readonly></h3>
+    </div>
+
+
+</body>
+</html>
