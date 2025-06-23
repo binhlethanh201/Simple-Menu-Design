@@ -1,56 +1,56 @@
-Getting Started with HTML & CSS Project
-This project was bootstrapped with basic HTML and CSS.
+# Getting Started with HTML/CSS Project
 
-Available Commands
-In the project directory, you can perform the following actions manually or with a live server tool:
+This project is built using standard HTML and CSS.
 
-Open index.html
-Opens the main HTML file in your browser.
-You can double-click the file or use a live server extension (like in VS Code) to preview it.
+## Available Commands
 
-Use Live Server
-Runs the project in development mode.
-Open http://localhost:5500 (or similar) to view it in your browser.
+In this project, you can run:
 
-The page will reload when you save changes (if using Live Server).
+### `Open index.html`
 
-Edit .html and .css Files
-Make any changes to index.html, style.css, or related files.
-You can use any text editor or IDE of your choice.
+Launch the application in your browser.\
+You can open the `index.html` file directly in any web browser like Chrome, Firefox, or Edge.
 
-Validate HTML/CSS
-Use the W3C Markup Validator and W3C CSS Validator to check for issues.
-This helps ensure your code follows web standards.
+### `Live Server` (Optional)
 
-Learn More
-You can learn more in the MDN Web Docs - HTML and MDN Web Docs - CSS.
+If you're using VS Code, you can install the **Live Server** extension.\
+Right-click on `index.html` and choose **"Open with Live Server"** to enable live reload on save.
 
-Responsive Design
-Learn about Responsive Web Design.
+### `Custom CSS Changes`
 
-CSS Flexbox and Grid
-Explore:
+You can modify the styles in `style.css`.\
+Changes will reflect immediately when the HTML is reloaded in the browser.
 
-CSS Flexbox Guide
+### `Assets Folder`
 
-CSS Grid Guide
+If your project includes images, fonts, or other resources, they should be placed in the `assets/` directory.
 
-Best Practices
-Use semantic HTML tags (<header>, <main>, <footer>, etc.).
+## Learn More
 
-Keep CSS modular and organized.
+You can learn more in the following documentation:
 
-Ensure accessibility (a11y) and mobile responsiveness.
+- [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
 
-Deployment
-You can deploy your project using:
+### Responsive Design
 
-GitHub Pages
+To build responsive layouts, consider using:
 
-Netlify
+- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-Vercel
+### Deployment
 
-Troubleshooting
-Check your browser console for any rendering or CSS issues.
-Validate your code frequently and test on multiple devices or screen sizes.
+You can deploy your project easily with:
+
+- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+
+### Troubleshooting
+
+- Ensure all file paths (e.g., images, CSS) are correct.
+- Use browser developer tools to inspect layout and debug CSS issues.
+- Check the console for any loading or syntax errors.
