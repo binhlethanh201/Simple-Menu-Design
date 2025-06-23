@@ -1,49 +1,49 @@
-# Getting Started with HTML/CSS Project
+Getting Started with HTML & CSS Project
+This project was bootstrapped with basic HTML and CSS.
 
-This project is built using basic HTML and CSS.
+Available Commands
+In the project directory, you can perform the following actions manually or with a live server tool:
 
-## Available Commands
+Open index.html
+Opens the main HTML file in your browser.
+You can double-click the file or use a live server extension (like in VS Code) to preview it.
 
-In the project directory, you can perform the following tasks:
+Use Live Server
+Runs the project in development mode.
+Open http://localhost:5500 (or similar) to view it in your browser.
 
-### `open index.html`
+The page will reload when you save changes (if using Live Server).
 
-Opens the main HTML file in your default web browser.  
-Use this to view your project directly without the need for a server.
+Edit .html and .css Files
+Make any changes to index.html, style.css, or related files.
+You can use any text editor or IDE of your choice.
 
-### `Live Server (Optional)`
-
-If you're using VS Code, you can install the **Live Server** extension.  
-This allows automatic reloading when you make changes to `HTML` or `CSS`.
-
-To start:
-- Right-click `index.html`
-- Choose **"Open with Live Server"**
-
-### `npm install -g live-server` (Optional)
-
-Install **Live Server** globally via npm if you want to use it from the command line.
-
-Then run:
-```bash
-live-server
-This will serve your project at http://localhost:8080 (or another available port).
+Validate HTML/CSS
+Use the W3C Markup Validator and W3C CSS Validator to check for issues.
+This helps ensure your code follows web standards.
 
 Learn More
-You can learn more in the HTML documentation.
-To explore CSS, check out the CSS documentation.
+You can learn more in the MDN Web Docs - HTML and MDN Web Docs - CSS.
 
 Responsive Design
-Learn about responsive design with this CSS Responsive Guide
+Learn about Responsive Web Design.
 
-CSS Flexbox
-Learn Flexbox layout from the Flexbox Guide
+CSS Flexbox and Grid
+Explore:
 
-CSS Grid
-Learn CSS Grid layout from the Grid Guide
+CSS Flexbox Guide
+
+CSS Grid Guide
+
+Best Practices
+Use semantic HTML tags (<header>, <main>, <footer>, etc.).
+
+Keep CSS modular and organized.
+
+Ensure accessibility (a11y) and mobile responsiveness.
 
 Deployment
-You can deploy your site using:
+You can deploy your project using:
 
 GitHub Pages
 
@@ -52,8 +52,5 @@ Netlify
 Vercel
 
 Troubleshooting
-Make sure all image and CSS file paths are correct (use relative paths).
-
-Clear browser cache if changes don’t appear.
-
-Use browser DevTools (F12) to inspect layout issues or console errors.
+Check your browser console for any rendering or CSS issues.
+Validate your code frequently and test on multiple devices or screen sizes.
